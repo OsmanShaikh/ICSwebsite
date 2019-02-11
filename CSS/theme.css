@@ -1,0 +1,50 @@
+.active{
+	background-color: blue;
+}
+
+h1 {
+
+	font-size: 70;
+	background-color: Blue; 
+	color: white;
+}
+
+
+a{}
+
+
+p{}
+
+head{
+
+	background-color: Blue;
+}
+
+ul {
+
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li{
+
+	float: left;
+}
+
+li a {
+
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14x 16x;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
