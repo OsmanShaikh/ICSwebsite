@@ -1,7 +1,3 @@
-.active{
-	background-color: blue;
-}
-
 h1 {
 
 	font-size: 70;
@@ -10,14 +6,49 @@ h1 {
 }
 
 
-a{}
-
-
-p{}
-
 head{
 
 	background-color: Blue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: white;
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+li {
+	float: left;
+	display:block;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	/*border-right: 2px solid white; */
+}
+
+li:last-child {
+	border-right: none;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
 }
 
 ul {
@@ -25,26 +56,7 @@ ul {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-}
-
-li{
-
-	float: left;
-}
-
-li a {
-
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14x 16x;
-	text-decoration: none;
-}
-
-li a:hover {
-	background-color: #111;
+	width: 100%;
+	border: 1px solid black;
+	background-color: black;
 }
