@@ -40,3 +40,19 @@ function loop() {
 		console.log(sign.repeat(i))
 	}
 }
+
+function biggernum() {
+
+	var x = prompt("Enter the first number")
+	var y = prompt("Enter the second number")
+
+	if (x>y) {
+		alert("The first number is bigger")
+
+	}
+
+	if (y>x) {
+		alert("The second number is bigger")
+	}
+
+}
