@@ -23,7 +23,7 @@ function NumberGuess() {
 
 		if (guess == x) {
 
-			alert("Congrats, you got it my friend it only took you " + y + " tries!")
+			alert("Congrats, you got it and only took you " + y + " tries!")
 
 			break 
 		}
