@@ -38,9 +38,9 @@ function loop() {
 	var repeat = ""
 
 	for (i = 1; i<= x; i++) {
-		repeat += sign.repeat(i)
+		repeat += sign.repeat(i) + <br>
 	}
-	document.getElementById("pattern").innerHTML 
+	document.getElementById("pattern").innerHTML = repeat
 
 }
 
