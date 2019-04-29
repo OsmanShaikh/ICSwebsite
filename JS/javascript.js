@@ -37,7 +37,7 @@ function loop() {
 	var sign = prompt("Enter what you want to be used as the pattern design: ")
 
 	for (i = 1; i<= x; i++) {
-		console.log(sign.repeat(i))
+		document.write(sign.repeat(i))
 	}
 }
 
