@@ -35,12 +35,11 @@ function NumberGuess() {
 function loop() {
 	var x = prompt("Enter the amount of times you want to repeat the pattern: ")
 	var sign = prompt("Enter what you want to be used as the pattern design: ")
-	var repeat = ""
 
 	for (i = 1; i<= x; i++) {
-		repeat += sign.repeat(i) + <br>
+		sign.repeat(i)
 	}
-	document.getElementById("pattern").innerHTML = repeat
+	document.getElementById("pattern").innerHTML = i
 
 }
 
