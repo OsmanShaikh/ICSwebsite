@@ -32,16 +32,16 @@ function NumberGuess() {
 
 }
 
-function loop() {
-	var x = prompt("Enter the amount of times you want to repeat the pattern: ")
-	var sign = prompt("Enter what you want to be used as the pattern design: ")
+//function loop() {
+	//var x = prompt("Enter the amount of times you want to repeat the pattern: ")
+	//var sign = prompt("Enter what you want to be used as the pattern design: ")
 
-	for (i = 1; i<= x; i++) {
-		sign.repeat(i)
-	}
-	document.getElementById("pattern").innerHTML = i
+	//for (i = 1; i<= x; i++) {
+		//sign.repeat(i)
+	//}
+	//document.getElementById("pattern").innerHTML = i
 
-}
+//}
 
 function biggernum() {
 
@@ -65,5 +65,5 @@ function length() {
 	var x = prompt("Enter a phrase")
 	y = x.append(x)
 	
-	alert("The size of the string is: "y.length)
+	console.log("The size of the string is: "y.length)
 }
