@@ -58,3 +58,12 @@ function biggernum() {
 	}
 
 }
+
+function length() {
+	
+	var y = []
+	var x = prompt("Enter a phrase")
+	y = x.append(x)
+	
+	alert(y)
+}
