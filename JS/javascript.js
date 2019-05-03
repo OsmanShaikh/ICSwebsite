@@ -65,5 +65,5 @@ function length() {
 	var x = prompt("Enter a phrase")
 	y = x.append(x)
 	
-	alert(y)
+	alert("The size of the string is: "y.length)
 }
